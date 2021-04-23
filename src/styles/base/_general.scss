@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "GothamSSm", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+
+  @media (max-width: 900px) {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  @media (max-width: 680px) {
+    line-height: 21px;
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: calc(100% - 80px);
+  max-width: 1110px;
+  padding: 0 40px;
+  margin: 0 auto;
+
+  @media (max-width: 540px) {
+    width: calc(100% - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

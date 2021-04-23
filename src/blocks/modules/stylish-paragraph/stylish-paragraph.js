@@ -1,0 +1,13 @@
+modules.define('stylish-paragraph', ['i-bem-dom'], function(provide, bemDom) {
+
+provide(bemDom.declBlock(this.name, {
+    onSetMod: {
+        js: {
+            inited: function() {
+                
+            }
+        }
+    }
+}));
+
+});

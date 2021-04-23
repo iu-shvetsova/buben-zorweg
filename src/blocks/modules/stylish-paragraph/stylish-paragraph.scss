@@ -1,0 +1,35 @@
+.stylish-paragraph {
+  padding-left: 96px;
+  position: relative;
+
+  @media (max-width: 900px) {
+    padding-left: 66px;
+  }
+
+  @media (max-width: 680px) {
+    padding-left: 46px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 66px;
+    height: 1px;
+    background-color: #000000;
+
+    @media (max-width: 900px) {
+      width: 46px;
+    }
+
+    @media (max-width: 680px) {
+      width: 26px;
+    }
+
+    @media (max-width: 540px) {
+      width: 36px;
+      top: 6px;
+    }
+  }
+}

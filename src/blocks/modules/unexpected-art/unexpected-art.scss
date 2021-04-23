@@ -1,0 +1,48 @@
+.unexpected-art {
+  padding: 100px 0;
+  background-color: #ebebeb;
+
+  @media (max-width: 680px) {
+    hyphens: auto;
+  }
+
+  @media (max-width: 540px) {
+    padding: 48px 0;
+  }
+
+  &__inner-container {
+    padding: 64px 100px;
+    background-color: #ffffff;
+
+    @media (max-width: 1160px) {
+      padding: 32px 64px;
+    }
+
+    @media (max-width: 540px) {
+      padding: 32px 16px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 100px;
+    font-weight: 700;
+
+    @media (max-width: 900px) {
+      font-size: 32px;
+      line-height: 1em;
+    }
+
+    @media (max-width: 680px) {
+      margin-bottom: 18px;
+    }
+  }
+
+  &__description {
+    margin: 0;
+    max-width: 760px;
+    line-height: 19px;
+  }
+}

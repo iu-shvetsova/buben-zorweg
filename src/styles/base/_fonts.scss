@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "GothamSSm";
+  src: url("../fonts/GothamSSm-Bold.woff2") format("woff2"),
+    url("../fonts/GothamSSm-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamSSm";
+  src: url("../fonts/GothamSSm-Medium.woff2") format("woff2"),
+    url("../fonts/GothamSSm-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamSSm";
+  src: url("../fonts/GothamSSm-Light.woff2") format("woff2"),
+    url("../fonts/GothamSSm-Light.woff") format("woff");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}

@@ -1,0 +1,27 @@
+.site-input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ffffff;
+  padding: 9px 29px;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 300;
+  background-color: #ffffff;
+  transition: border-color $transition-duration;
+
+  @media (max-width: 900px) {
+    padding: 4px 15px;
+    font-size: 14px;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: #000000;
+  }
+
+  &_textarea {
+    resize: none;
+    min-height: 120px;
+  }
+}

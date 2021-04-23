@@ -1,0 +1,16 @@
+.intro-block {
+  padding-bottom: 100px;
+  background-color: #ebebeb;
+
+  @media (max-width: 540px) {
+    padding-bottom: 48px;
+  }
+
+  &__main-content {
+    margin-top: 40px;
+
+    @media (max-width: 540px) {
+      margin-top: 16px;
+    }
+  }
+}

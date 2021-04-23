@@ -1,0 +1,26 @@
+.site-button {
+  cursor: pointer;
+  display: block;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #000000;
+  transition-property: background-color, opacity;
+  transition-duration: $transition-duration;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
